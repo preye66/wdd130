@@ -22,11 +22,11 @@ body {
   } 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--Tilt-neon);
-    color: var(  #DBB1BC);
+    color: var(--primary-color);
   }
   header {
     padding: 20px;
-    background-color: var(  #785964);
+    background-color: var(--accent1-color);
   }
 
   p {
