@@ -1,4 +1,4 @@
-@import url('family=Roboto:wght@300&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 
@@ -23,11 +23,11 @@ body {
   } 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--Tilt-neon);
-    color: var(--#DBB1BC);
+    color: var(--primary);
   }
   header {
     padding: 20px;
-    background-color: var(--#785964);
+    background-color: var(--accent1-color);
   }
 
   p {

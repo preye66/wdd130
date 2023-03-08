@@ -1,11 +1,24 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
 aside {
     width: 20em;
-    margin: 1em;
+    margin: 2em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
+
+}
+aside h2{
+  position:absolute;
+  top:346px;
+  left:150px;
 }
 aside img {
     width:200px;
@@ -14,7 +27,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-
+    float:right;
+    
+    
   }
   p { padding: 0;}
   footer {
@@ -22,3 +37,20 @@ main img {
     border-top: 1px solid #000;
     text-align: center;
   }
+
+/*class selectors*/
+.box{
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1em;
+    background-color: #ddd;
+    color: #000;
+
+}
+aside{
+  width:20em;
+  text-align:center;
+}
+
+
+
+
