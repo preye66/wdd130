@@ -1,5 +1,4 @@
-@import url('family=Roboto:wght@300&family=Tilt+Neon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap');
 :root {
     --primary-color: #DBB1BC    ;
     --secondary-color: #4D9DE0;
