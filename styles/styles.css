@@ -68,7 +68,7 @@ aside {
 }
 aside h2{
   position:absolute;
-  top:1px;
+  top:20px;
   left:150px;
 }
 aside img {
@@ -99,8 +99,8 @@ main img {
 
 }
 aside{
-  width:20em;
   text-align:center;
+  position:relative;
 }
 
 
