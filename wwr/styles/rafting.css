@@ -85,7 +85,14 @@ figcaption {
   justify-content: flex-end;
   align-items: center;
 }
+.sociallinks img {
+  width: 30px;
+  margin:10px 5px;}
 
+
+
+
+  
 footer {
   display: flex;
   justify-content: space-evenly;
