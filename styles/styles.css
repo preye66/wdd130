@@ -68,7 +68,7 @@ aside {
 }
 aside h2{
   position:absolute;
-  top:1px;
+  top:20px;
   left:150px;
 }
 aside img {
@@ -87,7 +87,11 @@ main img {
   footer {
     margin-top: 12em;
     border-top: 1px solid #000;
+<<<<<<< HEAD
     text-align:  center;
+=======
+    text-align: center;
+>>>>>>> ca295175147426d829e6f5f4cd3e26e713ee57ff
   }
 
 /*class selectors*/
@@ -99,8 +103,8 @@ main img {
 
 }
 aside{
-  width:20em;
   text-align:center;
+  position:relative;
 }
 
 
