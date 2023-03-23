@@ -52,32 +52,56 @@ nav a{
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff; 
-}
-
-.grid {
+  color: #fff;
   display: grid;
   align-items: center;
 }
 
-
-article img {
-  float: right;
-  width: 150px;
-  height: auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
 }
 
-figure img {
-  width: 90px;
-  height: auto;
-  justify-content: flex-start;
+
+.history {
+  display: grid;
+  justify-items: center;
 }
+
+.history_contents {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-gap: 10px;
+}
+
+.history_contents img {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.adventure {
+  display: grid;
+  justify-items: center;
+}
+
+.adventure_pictures {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  margin-left: -40px;
+}
+
+.adventure_pictures figure img {
+  max-width: 150px;
+  max-height: 200px;
+}
+
 figcaption {
   font-size: .8rem;
-  font-weight: 525;
+  color:#333;
+  text-align:center;
 }
 
 .sociallinks {
@@ -92,7 +116,7 @@ figcaption {
 
 
 
-  
+
 footer {
   display: flex;
   justify-content: space-evenly;
